@@ -35,4 +35,4 @@ O teste completo demora alguns minutos por causa do Bubble Sort e do Insertion S
 - `resultados/graficos/` — SVG de cada algoritmo e tipo de vetor
 - `resultados/graficos/index.html` — abre os gráficos no navegador
 
-O CSV usa `;` para abrir no Excel.
+O CSV usa `;` para abrir no Excel
