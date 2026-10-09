@@ -1,0 +1,8 @@
+java.version=1.8.0_441
+java.vendor=Oracle Corporation
+os.name=Windows 11
+os.arch=amd64
+processadores_logicos=12
+tamanhos=2000,5000,10000
+amostras=5
+threads=2,4,8

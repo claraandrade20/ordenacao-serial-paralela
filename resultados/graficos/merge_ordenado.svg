@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420">
+<rect width="100%" height="100%" fill="white"/>
+<text x="380" y="28" text-anchor="middle" font-family="Arial" font-size="16">Merge Sort - vetor ordenado</text>
+<line x1="70" y1="330" x2="500" y2="330" stroke="black"/>
+<line x1="70" y1="50" x2="70" y2="330" stroke="black"/>
+<text x="16" y="190" font-family="Arial" font-size="12" transform="rotate(-90 16 190)">Tempo medio (ms)</text>
+<text x="285" y="400" font-family="Arial" font-size="12">Tamanho do vetor</text>
+<line x1="70" y1="330" x2="500" y2="330" stroke="#dddddd"/>
+<text x="62" y="334" text-anchor="end" font-family="Arial" font-size="11">0.00</text>
+<line x1="70" y1="260" x2="500" y2="260" stroke="#dddddd"/>
+<text x="62" y="264" text-anchor="end" font-family="Arial" font-size="11">0.56</text>
+<line x1="70" y1="190" x2="500" y2="190" stroke="#dddddd"/>
+<text x="62" y="194" text-anchor="end" font-family="Arial" font-size="11">1.11</text>
+<line x1="70" y1="120" x2="500" y2="120" stroke="#dddddd"/>
+<text x="62" y="124" text-anchor="end" font-family="Arial" font-size="11">1.67</text>
+<line x1="70" y1="50" x2="500" y2="50" stroke="#dddddd"/>
+<text x="62" y="54" text-anchor="end" font-family="Arial" font-size="11">2.22</text>
+<text x="70" y="350" text-anchor="middle" font-family="Arial" font-size="11">2000</text>
+<text x="285" y="350" text-anchor="middle" font-family="Arial" font-size="11">5000</text>
+<text x="500" y="350" text-anchor="middle" font-family="Arial" font-size="11">10000</text>
+<circle cx="70" cy="317" r="3.5" fill="#1f4e79"/>
+<circle cx="285" cy="307" r="3.5" fill="#1f4e79"/>
+<circle cx="500" cy="291" r="3.5" fill="#1f4e79"/>
+<polyline fill="none" stroke="#1f4e79" stroke-width="2" points="70,317 285,307 500,291"/>
+<line x1="560" y1="70" x2="590" y2="70" stroke="#1f4e79" stroke-width="3"/>
+<text x="598" y="74" font-family="Arial" font-size="12">Serial</text>
+<circle cx="70" cy="259" r="3.5" fill="#c45911"/>
+<circle cx="285" cy="277" r="3.5" fill="#c45911"/>
+<circle cx="500" cy="246" r="3.5" fill="#c45911"/>
+<polyline fill="none" stroke="#c45911" stroke-width="2" points="70,259 285,277 500,246"/>
+<line x1="560" y1="92" x2="590" y2="92" stroke="#c45911" stroke-width="3"/>
+<text x="598" y="96" font-family="Arial" font-size="12">2 threads</text>
+<circle cx="70" cy="256" r="3.5" fill="#548235"/>
+<circle cx="285" cy="258" r="3.5" fill="#548235"/>
+<circle cx="500" cy="227" r="3.5" fill="#548235"/>
+<polyline fill="none" stroke="#548235" stroke-width="2" points="70,256 285,258 500,227"/>
+<line x1="560" y1="114" x2="590" y2="114" stroke="#548235" stroke-width="3"/>
+<text x="598" y="118" font-family="Arial" font-size="12">4 threads</text>
+<circle cx="70" cy="253" r="3.5" fill="#7030a0"/>
+<circle cx="285" cy="87" r="3.5" fill="#7030a0"/>
+<circle cx="500" cy="157" r="3.5" fill="#7030a0"/>
+<polyline fill="none" stroke="#7030a0" stroke-width="2" points="70,253 285,87 500,157"/>
+<line x1="560" y1="136" x2="590" y2="136" stroke="#7030a0" stroke-width="3"/>
+<text x="598" y="140" font-family="Arial" font-size="12">8 threads</text>
+</svg>
