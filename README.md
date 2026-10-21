@@ -1,6 +1,6 @@
 # Análise de Desempenho de Algoritmos de Busca em Ambientes Concorrentes e Paralelos: Um Estudo Comparativo em Java
 
-Trabalho em Java com Bubble Sort, Quick Sort, Merge Sort e Insertion Sort.
+Trabalho em Java com Selection Sort, Quick Sort, Merge Sort e Insertion Sort.
 Cada um tem versão serial e versão paralela. O programa mede o tempo, grava CSV e gera gráficos simples.
 
 O relatório está em [RELATORIO.md](RELATORIO.md).
@@ -26,7 +26,7 @@ Só para checar se os algoritmos ordenam certo, sem medir desempenho:
 java -cp bin trabalho.Main teste
 ```
 
-O teste completo demora alguns minutos por causa do Bubble Sort e do Insertion Sort.
+O teste completo demora alguns minutos por causa do Selection Sort e do Insertion Sort.
 
 ## Saída
 

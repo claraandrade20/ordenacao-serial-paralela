@@ -1,5 +1,5 @@
-java.version=1.8.0_441
-java.vendor=Oracle Corporation
+java.version=25.0.4.1
+java.vendor=Eclipse Adoptium
 os.name=Windows 11
 os.arch=amd64
 processadores_logicos=12

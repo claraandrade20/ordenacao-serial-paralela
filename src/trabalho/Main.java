@@ -21,7 +21,7 @@ public class Main {
     static final int[] THREADS = {2, 4, 8};
     static final String[] TIPOS = {"aleatorio", "ordenado", "decrescente"};
     static final String[] ALGORITMOS = {
-        "Bubble Sort", "Quick Sort", "Merge Sort", "Insertion Sort"
+        "Selection Sort", "Quick Sort", "Merge Sort", "Insertion Sort"
     };
 
     static class Medida {
@@ -171,7 +171,7 @@ public class Main {
         }
 
         int[] um = {4};
-        BubbleSort.paralelo(um, 4);
+        SelectionSort.paralelo(um, 4);
         System.out.println("Teste de correcao ok.");
     }
 
@@ -200,8 +200,8 @@ public class Main {
     }
 
     static void aplicarSerial(String algo, int[] v) {
-        if ("Bubble Sort".equals(algo)) {
-            BubbleSort.serial(v);
+        if ("Selection Sort".equals(algo)) {
+            SelectionSort.serial(v);
         } else if ("Quick Sort".equals(algo)) {
             QuickSort.serial(v);
         } else if ("Merge Sort".equals(algo)) {
@@ -212,8 +212,8 @@ public class Main {
     }
 
     static void aplicarParalelo(String algo, int[] v, int threads) {
-        if ("Bubble Sort".equals(algo)) {
-            BubbleSort.paralelo(v, threads);
+        if ("Selection Sort".equals(algo)) {
+            SelectionSort.paralelo(v, threads);
         } else if ("Quick Sort".equals(algo)) {
             QuickSort.paralelo(v, threads);
         } else if ("Merge Sort".equals(algo)) {

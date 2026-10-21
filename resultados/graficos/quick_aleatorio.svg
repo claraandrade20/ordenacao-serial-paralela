@@ -9,38 +9,38 @@
 <line x1="70" y1="330" x2="500" y2="330" stroke="#dddddd"/>
 <text x="62" y="334" text-anchor="end" font-family="Arial" font-size="11">0.00</text>
 <line x1="70" y1="260" x2="500" y2="260" stroke="#dddddd"/>
-<text x="62" y="264" text-anchor="end" font-family="Arial" font-size="11">1.28</text>
+<text x="62" y="264" text-anchor="end" font-family="Arial" font-size="11">0.63</text>
 <line x1="70" y1="190" x2="500" y2="190" stroke="#dddddd"/>
-<text x="62" y="194" text-anchor="end" font-family="Arial" font-size="11">2.56</text>
+<text x="62" y="194" text-anchor="end" font-family="Arial" font-size="11">1.26</text>
 <line x1="70" y1="120" x2="500" y2="120" stroke="#dddddd"/>
-<text x="62" y="124" text-anchor="end" font-family="Arial" font-size="11">3.84</text>
+<text x="62" y="124" text-anchor="end" font-family="Arial" font-size="11">1.88</text>
 <line x1="70" y1="50" x2="500" y2="50" stroke="#dddddd"/>
-<text x="62" y="54" text-anchor="end" font-family="Arial" font-size="11">5.12</text>
+<text x="62" y="54" text-anchor="end" font-family="Arial" font-size="11">2.51</text>
 <text x="70" y="350" text-anchor="middle" font-family="Arial" font-size="11">2000</text>
 <text x="285" y="350" text-anchor="middle" font-family="Arial" font-size="11">5000</text>
 <text x="500" y="350" text-anchor="middle" font-family="Arial" font-size="11">10000</text>
-<circle cx="70" cy="322" r="3.5" fill="#1f4e79"/>
-<circle cx="285" cy="304" r="3.5" fill="#1f4e79"/>
-<circle cx="500" cy="282" r="3.5" fill="#1f4e79"/>
-<polyline fill="none" stroke="#1f4e79" stroke-width="2" points="70,322 285,304 500,282"/>
+<circle cx="70" cy="305" r="3.5" fill="#1f4e79"/>
+<circle cx="285" cy="263" r="3.5" fill="#1f4e79"/>
+<circle cx="500" cy="199" r="3.5" fill="#1f4e79"/>
+<polyline fill="none" stroke="#1f4e79" stroke-width="2" points="70,305 285,263 500,199"/>
 <line x1="560" y1="70" x2="590" y2="70" stroke="#1f4e79" stroke-width="3"/>
 <text x="598" y="74" font-family="Arial" font-size="12">Serial</text>
-<circle cx="70" cy="296" r="3.5" fill="#c45911"/>
-<circle cx="285" cy="212" r="3.5" fill="#c45911"/>
-<circle cx="500" cy="258" r="3.5" fill="#c45911"/>
-<polyline fill="none" stroke="#c45911" stroke-width="2" points="70,296 285,212 500,258"/>
+<circle cx="70" cy="191" r="3.5" fill="#c45911"/>
+<circle cx="285" cy="207" r="3.5" fill="#c45911"/>
+<circle cx="500" cy="152" r="3.5" fill="#c45911"/>
+<polyline fill="none" stroke="#c45911" stroke-width="2" points="70,191 285,207 500,152"/>
 <line x1="560" y1="92" x2="590" y2="92" stroke="#c45911" stroke-width="3"/>
 <text x="598" y="96" font-family="Arial" font-size="12">2 threads</text>
-<circle cx="70" cy="251" r="3.5" fill="#548235"/>
-<circle cx="285" cy="253" r="3.5" fill="#548235"/>
-<circle cx="500" cy="277" r="3.5" fill="#548235"/>
-<polyline fill="none" stroke="#548235" stroke-width="2" points="70,251 285,253 500,277"/>
+<circle cx="70" cy="228" r="3.5" fill="#548235"/>
+<circle cx="285" cy="127" r="3.5" fill="#548235"/>
+<circle cx="500" cy="145" r="3.5" fill="#548235"/>
+<polyline fill="none" stroke="#548235" stroke-width="2" points="70,228 285,127 500,145"/>
 <line x1="560" y1="114" x2="590" y2="114" stroke="#548235" stroke-width="3"/>
 <text x="598" y="118" font-family="Arial" font-size="12">4 threads</text>
-<circle cx="70" cy="264" r="3.5" fill="#7030a0"/>
+<circle cx="70" cy="230" r="3.5" fill="#7030a0"/>
 <circle cx="285" cy="87" r="3.5" fill="#7030a0"/>
-<circle cx="500" cy="176" r="3.5" fill="#7030a0"/>
-<polyline fill="none" stroke="#7030a0" stroke-width="2" points="70,264 285,87 500,176"/>
+<circle cx="500" cy="95" r="3.5" fill="#7030a0"/>
+<polyline fill="none" stroke="#7030a0" stroke-width="2" points="70,230 285,87 500,95"/>
 <line x1="560" y1="136" x2="590" y2="136" stroke="#7030a0" stroke-width="3"/>
 <text x="598" y="140" font-family="Arial" font-size="12">8 threads</text>
 </svg>

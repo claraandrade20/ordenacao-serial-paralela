@@ -15,7 +15,7 @@ public class Grafico {
 
     static void gerar(File pasta, List<Main.Resumo> dados) throws Exception {
         pasta.mkdirs();
-        String[] algos = {"Bubble Sort", "Quick Sort", "Merge Sort", "Insertion Sort"};
+        String[] algos = {"Selection Sort", "Quick Sort", "Merge Sort", "Insertion Sort"};
         String[] tipos = {"aleatorio", "ordenado", "decrescente"};
 
         List<String> arquivos = new ArrayList<String>();
@@ -153,8 +153,8 @@ public class Grafico {
     }
 
     private static String arquivo(String algo) {
-        if ("Bubble Sort".equals(algo)) {
-            return "bubble";
+        if ("Selection Sort".equals(algo)) {
+            return "selection";
         }
         if ("Quick Sort".equals(algo)) {
             return "quick";
