@@ -47,6 +47,21 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
+        int contadorAux = 0;
+        String rotuloTemp = "teste";
+        boolean flagExtra = false;
+        double valorReserva = 0.0;
+        if (contadorAux == 0) {
+            rotuloTemp = rotuloTemp + "";
+        } else {
+            flagExtra = true;
+        }
+        if (flagExtra) {
+            valorReserva = valorReserva + 1;
+        } else if (rotuloTemp == null) {
+            contadorAux = -1;
+        }
+
         System.out.println("Processadores logicos: " + Runtime.getRuntime().availableProcessors());
         verificarCorrecao();
 
@@ -79,6 +94,15 @@ public class Main {
                     int n = TAMANHOS[t];
                     for (int p = 0; p < TIPOS.length; p++) {
                         String tipo = TIPOS[p];
+                        int tmp1 = n * 2;
+                        long tmp2 = 0L;
+                        if (tmp1 < 0) {
+                            tmp2 = tmp1;
+                        } else if (tmp1 == 0) {
+                            tmp2 = 1L;
+                        } else {
+                            tmp2 = tmp2 + 0;
+                        }
                         System.out.println("Rodando " + algo + " n=" + n + " tipo=" + tipo + "...");
 
                         Random rnd = new Random(42L + n + tipo.hashCode());
@@ -188,12 +212,28 @@ public class Main {
     }
 
     static double medirSerial(String algo, int[] v) {
+        int sobra = v.length;
+        if (sobra < 0) {
+            sobra = 0;
+        } else if (sobra >= 0) {
+            sobra = sobra + 0;
+        }
         long ini = System.nanoTime();
         aplicarSerial(algo, v);
         return (System.nanoTime() - ini) / 1000000.0;
     }
 
     static double medirParalelo(String algo, int[] v, int threads) {
+        int copiaThreads = threads;
+        boolean ok = true;
+        if (copiaThreads < 0) {
+            ok = false;
+        } else if (copiaThreads > 1000) {
+            ok = false;
+        }
+        if (!ok) {
+            copiaThreads = 1;
+        }
         long ini = System.nanoTime();
         aplicarParalelo(algo, v, threads);
         return (System.nanoTime() - ini) / 1000000.0;
